@@ -1,0 +1,128 @@
+/*  Creates the smooth-scrolling effect for entire document*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Sets background image to Cincinnati*/
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  background-image: url ("cincinnati.jpeg");
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #052c05;
+  color: #fff;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+/* Added name to header */
+h1::after {
+  font-weight: bolder;
+  content: 'Katlynn Blanton';
+  color: #777777;
+  margin-left: 5px;
+}
+
+h2 {
+  margin: 2% 0;
+  font-size: 180%;
+}
+
+h3 {
+  margin: 2% 0;
+  font-size: 150%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+nav a {
+  color: #b9C6ae;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex: 1 1 0;
+  max-width: 1200px;
+  margin: 2% auto;
+}
+
+section {
+  flex: 1 1 0;
+  padding-right: 5%;
+}
+
+article {
+  border-bottom: 1px solid #d8a47f;
+}
+
+article p {
+  margin: 2% 0;
+  font-size: 110%;
+}
+
+article ul {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  font-size: 110%;
+  list-style: circle;
+}
+
+aside {
+  width: 25%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #13293d;
+  font-size: small;
+}
+
+aside h2 {
+  font-size: 150%;
+  float
+}
+input,
+button {
+  width: 100%;
+  margin: 2% 0;
+  padding: 1%;
+}
+
+footer {
+  display: fixed;
+  justify-content: right;
+  padding: 2%;
+  background-color: #052c05;
+  color: #fff;
+}
+
+/* Adds accessibility features for all screen sizes*/
+@media screen and (max-width: 768px) {
+  header, main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+  }
+}              
