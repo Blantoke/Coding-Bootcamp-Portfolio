@@ -1,3 +1,3 @@
 # Coding-Bootcamp-Portfolio
 
-This is Homework Number two for the OSU Coding Bootcamp. This is the start of the portfolio project that will be updated with new projects and skills as the semester progresses. 
+This is the portfolio for the OSU coding bootcamp. This has been updated as of 09-21-2021 with recent learnings and projects from class. 
